@@ -1,1 +1,5 @@
-IyBUZXN0IEZpbGUKClRoaXMgaXMgYSB0ZXN0IGZpbGUgdG8gdmVyaWZ5IHdyaXRlIGFjY2Vzcy4=
+Content-Type: text/plain; charset=utf-8
+
+# Test File
+
+This is a test file to verify write access.
