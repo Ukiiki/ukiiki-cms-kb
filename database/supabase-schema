@@ -1,0 +1,24 @@
+# Supabase Database Schema
+
+## Authentication
+Utilizing Supabase Auth for:
+- User authentication
+- OAuth providers (Google Workspace integration)
+- Role-based access control
+- Email verification
+- Password recovery
+
+## Core Tables
+
+### profiles
+```sql
+create table profiles (
+  id uuid references auth.users on delete cascade not null primary key,
+  email text not null,
+  full_name text,
+  avatar_url text,
+  company_id uuid references companies(id),
+  role text not null check (role in ('admin', 'client', 'team_member')),
+  created_at timestamptz default now(),
+  updated_at timestamptz default now()
+);
