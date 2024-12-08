@@ -1,0 +1,33 @@
+# System Overview
+
+## Core Components
+
+1. User Management
+   - Client Profiles
+   - Internal User Profiles
+   - Access Control
+
+2. Proposal Management
+   - Creation and Templates
+   - Review Process
+   - Version Control
+
+3. Contract Management
+   - E-signatures
+   - Version Control
+   - Status Tracking
+
+4. Payment Processing
+   - Invoice Generation
+   - Payment Gateway Integration
+   - Payment Tracking
+
+5. Project Onboarding
+   - Client Questionnaires
+   - Asset Collection
+   - Timeline Generation
+
+6. Integration Hub
+   - Basecamp Integration
+   - Google Workspace Integration
+   - Additional Tools Integration
